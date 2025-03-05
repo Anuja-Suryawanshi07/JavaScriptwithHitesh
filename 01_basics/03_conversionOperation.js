@@ -46,6 +46,71 @@ let score = 33
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber) //33
-console.log(typeof stringNumber); //string
+//console.log(stringNumber) //33
+//console.log(typeof stringNumber); //string
+
+//************************************** Operations ********************************************//
+
+let value = 7
+let negValue = -value
+//console.log(negValue);
+
+//console.log(2+2);
+//console.log(5-2);
+//console.log(5*2);
+//console.log(2**2);
+//console.log(2/2);
+//console.log(5%2);
+
+let str1 = "Hello"
+let str2 = " Anuja"
+
+let str3 = str1 + str2
+//console.log(str3);
+
+//console.log("1" + 2)//12 string + number = string(condidering first datatype and then operation)
+//console.log(1 + "2");//12 number + string = number(condidering first datatype and then operation)
+//console.log("1" + 2 + 2);//122 string + numbers = string(condidering first datatype and then operation)
+//console.log(1 + 2 + "2");//32 numbers + string = number(condidering first datatype and then operation)
+
+//console.log(true);//true
+//console.log(+true);//1
+//console.log(+"");//0
+
+let num1, num2, num3;
+num1 = num2 = num3 = 5+5
+
+//let gameCounter = 10;
+//gameCounter++
+//console.log(gameCounter);
+
+let gameCounter = 100;
+++gameCounter
+//console.log(gameCounter);
+
+// prefix and postfix increment and decrement work as same but the difference is that
+//
+
+let x = 3;
+const y = x++;
+// x is 4; y is 3
+//console.log(x); //4
+//console.log(y); //3
+// postfix : the increment operator increments and returns the value before incrementing.
+
+let p = 3;
+const q = ++p;
+// p is 4; q is 4
+//console.log(p); //4
+//console.log(q); //4
+//prefix :the increment operator increments and returns the value after incrementing.
+
+
+
+
+
+
+
+
+
 
